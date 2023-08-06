@@ -26,6 +26,7 @@ To use this code:
 
 1. Ensure you have a table.csv in the root directory with the appropriate format.
 2. Run the code. At the end, the Mean Squared Error of the model on the test dataset will be printed.  
+
 Dependencies
 - numpy
 - pandas
