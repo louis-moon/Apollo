@@ -13,7 +13,7 @@ This repository contains modeling code tailored to predict health supplement out
 - The column "Vitamin C, mg" is used as the target variable (y), while the rest of the columns are used as features (X).
 2. Train-Test Split:
 
-The data is split into training and testing datasets. The test size is set to 1/13 of the total dataset.
+- The data is split into training and testing datasets. The test size is set to 1/13 of the total dataset.
 3. Hyperparameter Tuning:
 
 - GridSearchCV is used with a RandomForestRegressor to find the best parameters (n_estimators, max_depth, and min_samples_split) based on a 3-fold cross-validation.
